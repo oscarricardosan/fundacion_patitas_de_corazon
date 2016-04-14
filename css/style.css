@@ -1,0 +1,236 @@
+.banner .miniaturas{
+	text-align: center;
+}
+.banner .miniaturas img{
+	border: 10px solid white;
+	border-radius: 100%;
+	cursor: pointer;
+	display: inline-block;
+	height: 100px;
+	margin: 0 1em;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	width: 100px;
+}
+.banner .miniaturas img:hover{
+	border: 10px solid #7E5FB0;
+}
+.banner .miniaturas img.active{
+	border: 10px solid #00BCD4;
+}
+
+.banner .visor{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+	height: 400px;
+	margin: 0 0 1em 0;
+}
+body{
+	background: aliceblue;
+	font-family: 'Exo 2', sans-serif;
+}
+.container{
+	display: flex;
+	padding-left: 5em;
+}
+.clacificados{
+    display: inline-flex;
+    width: 100%;
+}
+.fichaMascota.macho{
+	background: #74CCDA;
+}
+.fichaMascota.hembra{
+	background: #D2A5E5;
+}
+.fichaMascota{
+    box-shadow: 5px 4px 4px #ccc;
+    -moz-box-shadow: 5px 4px 4px #ccc;
+    -webkit-box-shadow: 5px 4px 4px #ccc;
+    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 10px;
+    border-radius: 0 8px;
+    margin: 2em 1em 0 1em;
+    width: 50%;
+}
+.fichaMascota header{
+	text-align: center;
+}
+.fichaMascota .img{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+    height: 12em;
+	width: 100%;
+}
+footer{
+	background: rgba(218, 218, 218, 0.39);
+	bottom: 0;
+	position: fixed;
+	text-align:center;
+	width: 100%;
+}
+form.contacto{
+	
+}
+form.contacto button{
+	width: 100%;
+}
+form.contacto input, form.contacto textarea{
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin: 0.5em 0;
+	padding: 0.5em;
+	width: 100%;
+}
+header.principal{
+	background: white;
+    font-family: 'Overlock', cursive;
+    padding: 0;
+	position: relative;
+}
+header.principal>div{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: inline-block;
+	vertical-align: bottom;
+}
+header.principal div.title{
+	width: 81%;
+}
+header.principal div.logo{
+	position: relative;
+	width: 18%;
+}
+header.principal div.logo img{
+	width: 100%;
+}
+header.principal h1{
+	padding-left: 1em;
+}
+header.principal h1, header.principal h4{
+    color: #529F9F;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 100;
+	margin: 0;
+}
+header.principal h1>img{
+	display: inline-block;
+	height: 30px;
+}
+header.principal h1>span{
+	color: #688FE5;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 13px 9px 5px #C7CFE3;
+    -moz-text-shadow: 13px 9px 5px #C7CFE3;
+    -webkit-text-shadow: 13px 9px 5px #C7CFE3;
+}
+header.principal h4{ 
+    color: #9F348D;
+    background: #D6E8E8;
+    text-align: center;
+}
+
+header.principal nav ul.menu{
+    background: #678FE4;
+    color: white;
+	font-family: 'Exo 2', sans-serif;
+	list-style-type: none;
+	margin: 0!important;
+	padding: 0!important;
+    text-align: center;
+}
+header.principal nav ul.menu li.active{
+	background: #627EB8;
+    color: white;
+	font-weight: bold;
+}
+header.principal nav ul.menu li:hover{
+	background: #C497C1;
+}
+header.principal nav ul.menu li{
+    border-top: 0;
+    display: inline-block;
+    height: 50px;
+    margin: 0 1em;
+    padding: 0 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+header.principal nav ul.menu a{
+ 	color: inherit;
+ 	cursor: pointer;
+	display: inline-block;
+	line-height: 50px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.main, .panelDerecho, .panelDerecho section{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: inline-block;
+}
+main{
+	background: white;
+	padding: 0 3em 1em 3em;
+	position: relative;
+	width: 70%;
+}
+.panelDerecho{
+	background: #213A4F;
+	min-height: 1000px;
+	-moz-min-height: 1000px;
+	-webkit-min-height: 1000px;	
+	width: 30%;
+}
+.panelDerecho section{
+	border-left: 8px solid #F4C8FF;
+	border-right: 12px solid #F4C8FF;	
+    border-radius: 0 0 0 10%;
+    margin-left: 3%;
+    margin-top: 1em;
+    overflow: hidden;
+    background: #F4C8FF;
+    width: 94%;
+}
+.panelDerecho section header{
+	text-align: center;
+}
+.panelDerecho section img{
+	width: 100%;
+}
+.panelDerecho section .link, .panelDerecho section .link a{
+	color: #CC00FF!important;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.panelDerecho section header,
+.panelDerecho section p{ 
+	padding:3px;
+}
+
+
+
+.post-container {
+    margin: 20px 20px 0 0;  
+    overflow: auto
+}
+.post-img {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.post-content {
+    margin-left: 210px
+}
+.post-content p{
+    text-align: justify;
+}
